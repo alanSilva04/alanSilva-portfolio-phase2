@@ -1,10 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/home/Home';
+import Biography from './components/biography/Biography';
+import Proyects from './components/proyects/Proyects';
 
 function App() {
   return (
-    <div >
-      <h1>Alan Silva - Portfolio</h1>
+    <div>
+      <Home />
+      <Biography />
+      <Proyects />
+      <div className='contacts-section'>
+        <hr />
+      </div>
     </div>
   );
 }
