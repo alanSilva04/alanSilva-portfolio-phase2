@@ -1,0 +1,44 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#photo {
+    position: absolute;
+    max-width: 20rem;
+    margin-left: 38rem;
+    margin-top: 1rem;
+    border: 1px dashed rgb(186, 186, 186);
+    padding: 0.5rem;
+    border-radius: 40%;
+}
+
+.presentation-section {
+    height: 11rem;
+    margin-left: 7.8rem;
+}
+
+.presentation-section h2 {
+    margin-top: 3rem;
+}
+
+.presentation-section p {
+    margin-top: 1rem;
+}
+
+.contact-section p{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    font-size: 1.2vw;
+}
+
+.contact-title {
+    color: grey;
+    padding-bottom: 0.5rem;
+}
+
+.contact-section {
+    height: 7rem;
+    margin-left: 8rem;
+}

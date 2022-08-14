@@ -1,0 +1,25 @@
+.bio {
+    margin-left: 7.7rem;
+    width: 30rem;
+    height: 10rem;
+}
+
+.tecnologies {
+    height: 6rem;
+}
+
+.tec-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tec-items ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.tec-items i {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,21 @@
+.navbar {
+    justify-content: space-between;
+    padding: auto;
+    margin-bottom: -1rem;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: grey;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: black;
+}
