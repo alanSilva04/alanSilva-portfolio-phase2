@@ -1,24 +1,37 @@
 export default [
     {
-        title:"proyect 1",
-        description: "The first proyect",
+        title:"Car deals search engine",
+        description: "Search cars for sale accross mercadolibre and facebook marketplace in one place",
         url:"google.com",
         image:"./imgs/Kaido.jpeg",
         techs:[
-            "Tec 1",
-            "Tec 2",
-            "Tec 3"
-        ]
+            "React.js",
+            "Next.js",
+            "Bootstrap"
+        ],
+        id: 1
     },
     {
-        title:"proyect 2",
-        description: "The second proyect",
+        title:"Car deals search engine",
+        description: "Search cars for sale accross mercadolibre and facebook marketplace in one place",
         url:"google.com",
-        image:"./imgs/Mugis.jpeg",
+        image:"./imgs/Mugis.jpg",
         techs:[
-            "Tec 1",
-            "Tec 2",
-            "Tec 3"
-        ]
+            "React.js",
+            "Next.js",
+        ],
+        id: 2
+    },
+    {
+        title:"Car deals search engine",
+        description: "Search cars for sale accross mercadolibre and facebook marketplace in one place",
+        url:"google.com",
+        image:"./imgs/Kaido.jpeg",
+        techs:[
+            "React.js",
+            "Next.js",
+            "Bootstrap",
+        ],
+        id: 3
     },
 ]

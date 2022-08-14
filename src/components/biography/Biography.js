@@ -4,30 +4,33 @@ import "./Biography.css"
 
 function Biography() {
   return (
-    <div>
+    <div id='About'>
       <div className='bio'>
         <h3>Biography</h3>
         <p>Biography || Data about me</p>
       </div>
       <hr />
       <div className='tecnologies'>
-        <h4 className='tec-title'>Learned Tecnologies</h4>
+        <h4 className='tec-title'>Most applied technologies</h4>
         <div className='tec-items'>
           <ul>
             <li>
-              <i class="fa-brands fa-html5"> HTML 5</i>
+              <i className="fa-brands fa-html5"> HTML 5</i>
             </li>
             <li>
-              <i class="fa-brands fa-css3-alt"> CSS</i>
+              <i className="fa-brands fa-css3-alt"> CSS</i>
             </li>
             <li>
-              <i class="fa-brands fa-react"> React</i>
+              <i className="fa-brands fa-react"> React</i>
             </li>
             <li>
-              <i class="fa-brands fa-js"> JavaScript</i>
+              <i className="fa-brands fa-js"> JavaScript</i>
             </li>
             <li>
-              <i class="fa-brands fa-sass"> Sass</i>
+              <i className="fa-brands fa-sass"> Sass</i>
+            </li>
+            <li>
+              <i className="fa-brands fa-bootstrap"> Bootstrap</i>
             </li>
           </ul>
         </div>

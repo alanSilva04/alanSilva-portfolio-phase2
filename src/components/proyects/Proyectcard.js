@@ -10,18 +10,29 @@ function Proyectcard(props) {
     })
 
     React.useEffect(() => {
-        setProyectData(
-            title= props.title,
-            description= props.description,
-            url= props.url,
-            
-        )
-    })
+        return setProyectData({
+            title: props.title,
+            description: props.description,
+            url: props.url,
+            image: props.image,
+            techs: props.techs
+        })
+    }, [])
+
+    const techlist = proyectData.techs.map((tech) => <li className='tech-item'>{tech}</li> );
+
   return (
-    <div>
-        <a href={props.url}><img src={props.image} alt="" /></a>
-        <h3>{props.title}</h3>
-        <h4>{props.description}</h4>
+    <div className='card-container'>
+        <div className="image-container">
+            <a href={proyectData.url}><img className='card-image' src={proyectData.image} alt={proyectData.title} /></a>
+        </div>
+        <div className='card-text-container'>
+            <h3 className='card-title'>{proyectData.title}</h3>
+            <h4 className='card-info'>{proyectData.description}</h4>
+        </div>
+        <div className='tech-list'>
+            {techlist}
+        </div>
     </div>
   )
 }

@@ -1,6 +1,67 @@
 .proyect-container {
     height: 20rem;
-    background-color: red;
     margin-left: 5rem;
     margin-right: 5rem;
+    margin-top: -2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-container {
+    border: 1px solid black;
+    width: 13rem;
+    height: 15rem;
+    background-color: white;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+}
+
+.card-image {
+    max-width: 12rem;
+    height: 7.5rem;
+}
+
+.tech-list {
+    list-style: none;
+}
+
+.card-text-container {
+    margin-top: -0.2rem;
+}
+
+.card-title {
+    font-size: 0.9rem;
+    font-weight: bold;  
+}
+
+.card-info {
+    font-size: 0.8rem;   
+    margin-top: -0.6rem;
+    color: rgb(65, 65, 65);
+}
+
+.tech-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tech-item {
+    display: inline-block;
+    background-color: rgb(227, 227, 227);
+    color: rgb(153, 153, 153);
+    font-size: 0.8rem;
+    padding: 0rem 0.2rem;
+    font-weight: bold;
+}
+
+.proyects-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

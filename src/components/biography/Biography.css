@@ -15,9 +15,11 @@
 }
 
 .tec-items ul{
+    margin-top: 1rem;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    list-style: none;
 }
 
 .tec-items i {

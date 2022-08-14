@@ -5,7 +5,7 @@ import Photo from "./perfil-photo.jpeg";
 
 function Home() {
   return (
-    <div className='home-container'>
+    <div className='home-container' id='Home'>
       <img id="photo" src={Photo} alt="Alan Silva" />
       <div className="presentation-section">
         <h2>Presentation(Salute)</h2>

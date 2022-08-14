@@ -4,15 +4,25 @@ import Proyectcard from './Proyectcard';
 import data from './proyects-data/data';
 
 function Proyects() {
+
+  const cardItem = data.map((proyect) => 
+    <Proyectcard 
+      title={proyect.title}
+      description={proyect.description}
+      url={proyect.url}
+      image={proyect.image}
+      techs={proyect.techs}
+      key={proyect.id}
+    />)
+
+
   return (
-    <div className='proyect-container'>
-      <Proyectcard 
-        title={data.title}
-        description={data.description}
-        url={data.url}
-        image={data.image}
-        techs={data.techs}
-      />
+    <div id='Proyects'>
+      <hr />
+      <h3 className='proyects-title'>Latest Proyects</h3>
+      <div className='proyect-container'>
+        {cardItem}
+      </div>
     </div>
   )
 }
