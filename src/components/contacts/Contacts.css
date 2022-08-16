@@ -18,3 +18,8 @@
 .contact-icon {
     color: black;
 }
+
+@media (max-width: 720px) and (min-height: 360px){
+    
+
+}

@@ -28,6 +28,11 @@
     margin-top: 1rem;
 }
 
+.contact-section {
+    height: 7rem;
+    margin-left: 8rem;
+}
+
 .contact-section p{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -39,7 +44,49 @@
     padding-bottom: 0.5rem;
 }
 
-.contact-section {
-    height: 7rem;
-    margin-left: 8rem;
+
+
+@media (max-width: 720px) and (min-height: 360px){
+    .presentation-section {
+        width: 78vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .presentation-section h2 {
+        font-size: 6rem;
+        margin-top: 112rem;
+    }
+
+    .presentation-section p {
+        font-size: 3.5rem;
+    }
+
+    #photo {
+        max-width: 50rem;
+        height: 50rem;
+        margin-left: 22vw;
+    }
+
+    .contact-section {
+        margin-top: 60rem;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .contact-title {
+        font-size: 3rem;
+        margin-top: 3rem;
+        margin-left: 56vw;
+    }
+
+    .contact-section p{
+        font-size: 1.8rem;
+        margin-top: -0.5rem;
+        margin-left: 49vw;
+        text-align: center;
+    }
 }

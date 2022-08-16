@@ -19,3 +19,25 @@
 .navbar a:hover {
     color: black;
 }
+
+
+@media (max-width: 720px) and (min-height: 360px){
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar a{
+        font-size: 3rem;
+    }
+
+    .navbar ul {
+        margin-left: 6vw;
+        display: flex;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+}

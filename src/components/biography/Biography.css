@@ -22,13 +22,62 @@
     list-style: none;
 }
 
-.tec-items i,li {
+.tec-items i {
     font-size: 1.5rem;
 }
 
-.tec-items img{
-    height: 32px;
-    width: 32px;
-    font-family: "Font Awesome 6 Brands";
-    font-weight: 400;
+.tec-list-item {
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+}
+
+
+@media (max-width: 720px) and (min-height: 360px){
+    .bio {
+        margin-left: 2rem;
+        margin-top: -4rem;
+        width: 60vw;
+    }
+
+    .bio h3 {
+        font-size: 3rem;
+    }
+    
+    .bio p{
+        font-size: 2rem;
+    }
+
+    #About hr {
+        margin-top: 12rem;
+    }
+
+    .tec-title {
+        font-size: 3.5rem;
+    }
+
+    .tecnologies {
+        height: 15rem;
+        margin-left: 0px;
+    }
+
+    .tec-items i {
+        font-size: 4rem;
+        text-align: center;
+        margin: 1rem;
+        width: 25vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #About ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    
+    .tec-list-item {
+        margin-left: 13vw;
+    }
+
 }
