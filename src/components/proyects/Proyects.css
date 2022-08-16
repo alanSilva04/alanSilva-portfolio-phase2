@@ -10,6 +10,7 @@
 
 .card-container {
     border: 1px solid black;
+    border-radius: 10px;
     width: 13rem;
     height: 15rem;
     background-color: white;
@@ -20,6 +21,7 @@
     justify-content: center;
     align-items: center;
     height: 8rem;
+    background-color: white;
 }
 
 .card-image {
@@ -33,22 +35,27 @@
 
 .card-text-container {
     margin-top: -0.2rem;
+    background-color: white;
+
 }
 
 .card-title {
     font-size: 0.9rem;
-    font-weight: bold;  
+    font-weight: bold;
+    background-color: white;  
 }
 
 .card-info {
     font-size: 0.8rem;   
     margin-top: -0.6rem;
     color: rgb(65, 65, 65);
+    background-color: white;
 }
 
 .tech-list {
     display: flex;
     justify-content: space-around;
+    background-color: white;
 }
 
 .tech-item {

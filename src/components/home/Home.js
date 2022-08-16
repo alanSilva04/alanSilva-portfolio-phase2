@@ -8,8 +8,8 @@ function Home() {
     <div className='home-container' id='Home'>
       <img id="photo" src={Photo} alt="Alan Silva" />
       <div className="presentation-section">
-        <h2>Presentation(Salute)</h2>
-        <p>Presentation(Short p)</p>
+        <h2>Hi! I am Alan Silva</h2>
+        <p>And this is my Portfolio <br/> Thanks for visiting it!</p>
       </div>
       <div className="contact-section">
         <p className='contact-title'>Contact Me</p>

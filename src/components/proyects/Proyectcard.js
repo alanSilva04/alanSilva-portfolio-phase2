@@ -19,7 +19,7 @@ function Proyectcard(props) {
         })
     }, [])
 
-    const techlist = proyectData.techs.map((tech) => <li className='tech-item'>{tech}</li> );
+    const techlist = proyectData.techs.map((tech) => <li className='tech-item' key={tech}>{tech}</li> );
 
   return (
     <div className='card-container'>
