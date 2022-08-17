@@ -4,6 +4,15 @@
     height: 10rem;
 }
 
+.bio h3 {
+    font-size: 25px;
+}
+
+.bio p {
+    font-size: 1.3vw;
+}
+
+
 .tecnologies {
     height: 6rem;
 }
