@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
 import Biography from './components/biography/Biography';
-import Proyects from './components/proyects/Proyects';
+import Projects from './components/proyects/Proyects';
 import Contacts from './components/contacts/Contacts';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Home />
       <Biography />
-      <Proyects />
+      <Projects />
       <Contacts />
     </div>
   );

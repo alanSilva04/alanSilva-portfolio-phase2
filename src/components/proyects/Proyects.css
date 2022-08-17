@@ -9,11 +9,11 @@
 }
 
 .card-container {
-    border: 1px solid black;
     border-radius: 10px;
-    width: 13rem;
-    height: 15rem;
+    width: 15rem;
+    height: 17rem;
     background-color: white;
+    padding: 2rem;
 }
 
 .image-container {
@@ -27,6 +27,7 @@
 .card-image {
     max-width: 12rem;
     height: 7.5rem;
+    margin-top: -2rem;
 }
 
 .tech-list {
@@ -34,7 +35,7 @@
 }
 
 .card-text-container {
-    margin-top: -0.2rem;
+    margin-top: -1rem;
     background-color: white;
 }
 
@@ -42,11 +43,13 @@
     font-size: 0.8rem;
     font-weight: bold;
     background-color: white;  
+    margin-left: -0.6rem;
 }
 
 .card-info {
     font-size: 0.7rem;   
     margin-top: -0.3rem;
+    margin-left: -0.6rem;
     color: rgb(65, 65, 65);
     background-color: white;
 }
@@ -58,10 +61,12 @@
 }
 
 .tech-item {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     background-color: rgb(227, 227, 227);
     color: rgb(153, 153, 153);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    margin-top: 1rem;
     padding: 0rem 0.2rem;
     font-weight: bold;
 }
@@ -89,12 +94,14 @@
         display: flex;
         flex-direction: column;
         height: 100rem;
+        margin-top: 5rem;
     }
 
     .card-container {
-        width: 26rem;
-        height: 30rem;
+        width: 30rem;
+        height: 34rem;
         margin-top: 3rem;
+        padding: 3rem;
     }
 
     .image-container {
@@ -108,12 +115,12 @@
     
     .card-title {
         font-size: 1.6rem;
-        margin-left: 0.7rem;
+        margin-left: 0;
     }
     
     .card-info {
         font-size: 1.4rem;   
-        margin-left: 0.7rem;
+        margin-left: 0;
         color: rgb(65, 65, 65);
         background-color: white;
     }
@@ -123,8 +130,9 @@
     }
 
     .tech-item {
-        font-size: 1.6rem;
+        font-size: 1.7rem;
         padding: 0rem 0.4rem;
+        margin: 1rem;
         border-radius: 3px;
     }
 }

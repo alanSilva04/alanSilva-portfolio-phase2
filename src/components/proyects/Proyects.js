@@ -19,7 +19,7 @@ function Proyects() {
   return (
     <div id='Proyects'>
       <hr />
-      <h3 className='proyects-title'>Latest Proyects</h3>
+      <h3 className='proyects-title'>Latest Projects</h3>
       <div className='proyect-container'>
         {cardItem}
       </div>
