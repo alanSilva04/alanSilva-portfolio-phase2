@@ -74,13 +74,14 @@
         margin-top: 60rem;
         display: flex;
         flex-direction: column;
-
+        line-height: 3rem;
     }
 
     .contact-title {
         font-size: 3rem;
         margin-top: 3rem;
         margin-left: 56vw;
+        color: #000;
     }
 
     .contact-section p{
@@ -88,5 +89,6 @@
         margin-top: -0.5rem;
         margin-left: 49vw;
         text-align: center;
+        color: rgb(73, 73, 73);
     }
 }

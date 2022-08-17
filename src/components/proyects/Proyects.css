@@ -81,5 +81,50 @@
         margin-top: 15rem;
     }
 
+    .proyects-title {
+        font-size: 3.5rem;
+    }
+
+    .proyect-container {
+        display: flex;
+        flex-direction: column;
+        height: 100rem;
+    }
+
+    .card-container {
+        width: 26rem;
+        height: 30rem;
+        margin-top: 3rem;
+    }
+
+    .image-container {
+        height: 16rem;
+    }
+
+    .card-image {
+        max-width: 24rem;
+        height: 15rem;
+    }
     
+    .card-title {
+        font-size: 1.6rem;
+        margin-left: 0.7rem;
+    }
+    
+    .card-info {
+        font-size: 1.4rem;   
+        margin-left: 0.7rem;
+        color: rgb(65, 65, 65);
+        background-color: white;
+    }
+
+    .tech-list {
+        margin-top: 2.6rem;
+    }
+
+    .tech-item {
+        font-size: 1.6rem;
+        padding: 0rem 0.4rem;
+        border-radius: 3px;
+    }
 }
