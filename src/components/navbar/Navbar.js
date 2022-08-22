@@ -15,7 +15,7 @@ function Navbar() {
                         <a href="#About">About Me</a>
                     </li>
                     <li className="navbar-item">
-                        <a href="#Proyects">Proyects</a>
+                        <a href="#Proyects">Projects</a>
                     </li>
                     <li className="navbar-item">
                         <a href="#Contact">Contact</a>
