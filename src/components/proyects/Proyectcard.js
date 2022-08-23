@@ -24,7 +24,7 @@ function Proyectcard(props) {
   return (
     <div className='card-container'>
         <div className="image-container">
-            <a href={proyectData.url} target="_blank"><img className='card-image' src={proyectData.image} alt={proyectData.title} /></a>
+            <a href={proyectData.url} target="_blank" rel="noreferrer"><img className='card-image' src={proyectData.image} alt={proyectData.title} /></a>
         </div>
         <div className='card-text-container'>
             <h3 className='card-title'>{proyectData.title}</h3>
