@@ -1,7 +1,7 @@
 export default [
     {
         title:"My first CRUD agenda project",
-        description: "Just a simple CRUD agenda proyect build with Firebase and Bootstrap to test them",
+        description: "Just a simple CRUD agenda proyect build with Firebase and Bootstrap to test working with a realtime database",
         url:"https://firebase-crud-project.vercel.app/",
         image:"./imgs/agendaProject.jpeg",
         techs:[
