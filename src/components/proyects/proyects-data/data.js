@@ -1,13 +1,13 @@
 export default [
     {
-        title:"Car deals search engine",
-        description: "Search cars for sale accross mercadolibre and facebook marketplace in one place",
-        url:"google.com",
-        image:"./imgs/Kaido.jpeg",
+        title:"My first CRUD agenda project",
+        description: "Just a simple CRUD agenda proyect build with Firebase and Bootstrap to test them",
+        url:"https://firebase-crud-project.vercel.app/",
+        image:"./imgs/agendaProject.jpeg",
         techs:[
             "React.js",
-            "Next.js",
-            "Bootstrap"
+            "Bootstrap",
+            "Firebase"
         ],
         id: 1
     },
