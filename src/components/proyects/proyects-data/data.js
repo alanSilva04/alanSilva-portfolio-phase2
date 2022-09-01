@@ -22,16 +22,16 @@ export default [
         ],
         id: 2
     },
-    // {
-    //     title:"Car deals search engine",
-    //     description: "Search cars for sale accross mercadolibre and facebook marketplace in one place",
-    //     url:"google.com",
-    //     image:"./imgs/Kaido.jpeg",
-    //     techs:[
-    //         "React.js",
-    //         "Next.js",
-    //         "Bootstrap",
-    //     ],
-    //     id: 3
-    // },
+    {
+        title:"Tic Tac Toe Game",
+        description: "This is my first try to make a game that can be played with my friends",
+        url:"https://chat-game-app.vercel.app/",
+        image:"./imgs/Chat-game.jpeg",
+        techs:[
+            "React.js",
+            "Socket.io",
+            "Heroku",
+        ],
+        id: 3
+    },
 ]
